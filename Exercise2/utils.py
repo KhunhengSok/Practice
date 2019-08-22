@@ -84,8 +84,8 @@ def plotDecisionBoundary(plotData, theta, X, y):
 
         # Legend, specific for the exercise
         pyplot.legend(['Admitted', 'Not admitted', 'Decision Boundary'])
-        pyplot.xlim([30, 100])
-        pyplot.ylim([30, 100])
+        pyplot.xlim([0, 100])
+        pyplot.ylim([0, 100])
     else:
         # Here is the grid range
         u = np.linspace(-1, 1.5, 50)
